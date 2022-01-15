@@ -12,7 +12,7 @@ import javax.swing.JPanel;
  * with drawn blocks. Contains a currentChip in which all placed elements are stored to enable the current displayed 
  * circuit to saved as a block to be inserted in a different circuit.
  */
-@SuppressWarnings("serial")
+
 public class InteractivePanel extends JPanel implements Runnable, Cloneable {
 
 	Chip currentChip;
